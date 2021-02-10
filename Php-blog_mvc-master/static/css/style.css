@@ -1,0 +1,71 @@
+body
+{
+ background-image: url(../img/posts/fond-japon.jpg)   !important;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main
+{
+  flex: 1 0 auto;
+}
+
+
+.is_signaled
+{
+ /* background-color: #9E9E9E !important; */
+  transition: background 0.3s;
+}
+
+.vote-form
+{
+  display: inline-block;
+}
+
+.legalNotice{
+  padding: 0 0 50px 0;
+}
+
+.footer-row{
+  margin-bottom:0;
+}
+.page-title {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  color : #000000;
+}
+.textBlack {
+  color : #000000;
+}
+.carousel {
+      height: 350px;
+      width: 100% !important;
+    
+    }
+/* RESPONSIVE */
+
+@media all and (max-width: 785px){
+  .page-title
+  {
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 482px){
+  nav .brand-logo
+  {
+    font-size: 1.3em;
+  }
+
+  .page-title
+  {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+  }
+}
